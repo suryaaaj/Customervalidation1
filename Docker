@@ -1,0 +1,4 @@
+FROM openJDK:17
+ADD target/example.jar example.jar
+ENTRYPOINT ["java","-jar","example.jar"]
+EXPOSE 8080
