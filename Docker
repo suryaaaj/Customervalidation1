@@ -1,4 +1,4 @@
 FROM openJDK:17
-ADD target/example.jar example.jar
-ENTRYPOINT ["java","-jar","example.jar"]
+ADD target/customerapp.jar customerapp.jar
+ENTRYPOINT ["java","-jar","customerapp.jar"]
 EXPOSE 8080
